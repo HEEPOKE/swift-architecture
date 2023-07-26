@@ -38,3 +38,5 @@ fastlane/test_output
 *.debug
 *.log
 *.xcuserstate
+
+.DS_Store
