@@ -23,7 +23,7 @@ struct HomeScreen: View {
                         radius: 10,
                         size: 18
                     ){}
-                }
+                }.buttonStyle(PlainButtonStyle())
                 
                 ButtonComponent(
                     title: "with Google",
