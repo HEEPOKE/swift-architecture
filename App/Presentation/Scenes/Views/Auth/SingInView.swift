@@ -54,8 +54,13 @@ struct SignInView: View {
     }
     
     private func performSignIn() {
-        authService.signIn(email: email, password: password) { success in
-            isSignInSuccess = success
+        authService.signIn(email: email, password: password) { response in
+            if response.success {
+                isSignInSuccess = true
+            } else if let errorMessage = response.errorMessage {
+                print("Error: \(errorMessage)")
+                isSignInSuccess = false
+            }
         }
     }
 }
