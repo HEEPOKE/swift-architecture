@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    @State private var isSignInViewActive = false
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -8,17 +10,19 @@ struct HomeScreen: View {
                 Text("Welcome to My App")
                     .font(.title)
                     .padding()
+                
                 Spacer()
                 
-                ButtonComponent(
-                    title: "Sign In",
-                    color: .blue,
-                    icon: "person.fill",
-                    width: 200,
-                    height: 50,
-                    radius: 10,
-                    size: 18
-                ) {
+                NavigationLink(destination: SignInView()){
+                    ButtonComponent(
+                        title: "Sign In",
+                        color: .blue,
+                        icon: "person.fill",
+                        width: 200,
+                        height: 50,
+                        radius: 10,
+                        size: 18
+                    ){}
                 }
                 
                 ButtonComponent(
@@ -29,12 +33,10 @@ struct HomeScreen: View {
                     height: 50,
                     radius: 10,
                     size: 18
-                ) {
-                }
-                .padding(.horizontal)
+                ){}
+                
                 Spacer()
             }
-            
         }
     }
 }

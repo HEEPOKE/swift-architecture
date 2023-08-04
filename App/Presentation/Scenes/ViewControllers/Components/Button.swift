@@ -27,5 +27,6 @@ struct ButtonComponent: View {
             .background(color)
             .cornerRadius(radius)
         }
+        .padding(.horizontal)
     }
 }
