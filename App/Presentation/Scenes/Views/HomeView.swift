@@ -20,6 +20,17 @@ struct HomeScreen: View {
                     size: 18
                 ) {
                 }
+                
+                ButtonComponent(
+                    title: "with Google",
+                    color: .red,
+                    icon: "g.circle.fill",
+                    width: 200,
+                    height: 50,
+                    radius: 10,
+                    size: 18
+                ) {
+                }
                 .padding(.horizontal)
                 Spacer()
             }
