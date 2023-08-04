@@ -21,7 +21,7 @@
 		59C0495D2A70E42F0071C806 /* SomeFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C0495C2A70E42F0071C806 /* SomeFeatureViewController.swift */; };
 		59C049612A70E4510071C806 /* AnotherFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049602A70E4510071C806 /* AnotherFeatureViewController.swift */; };
 		59C049642A70E4720071C806 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049632A70E4720071C806 /* HomeView.swift */; };
-		59C049672A70E4860071C806 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049662A70E4860071C806 /* BaseViewController.swift */; };
+		59C049672A70E4860071C806 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049662A70E4860071C806 /* Button.swift */; };
 		59C0496A2A70F1B40071C806 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049692A70F1B40071C806 /* BaseViewModel.swift */; };
 		59C0496D2A70F1F40071C806 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C0496C2A70F1F40071C806 /* NetworkService.swift */; };
 		59C049712A70F2130071C806 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049702A70F2130071C806 /* Utils.swift */; };
@@ -64,7 +64,7 @@
 		59C0495C2A70E42F0071C806 /* SomeFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeFeatureViewController.swift; sourceTree = "<group>"; };
 		59C049602A70E4510071C806 /* AnotherFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherFeatureViewController.swift; sourceTree = "<group>"; };
 		59C049632A70E4720071C806 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		59C049662A70E4860071C806 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		59C049662A70E4860071C806 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		59C049692A70F1B40071C806 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		59C0496C2A70F1F40071C806 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		59C049702A70F2130071C806 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -265,7 +265,7 @@
 		59C049652A70E4790071C806 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				59C049662A70E4860071C806 /* BaseViewController.swift */,
+				59C049662A70E4860071C806 /* Button.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -426,7 +426,7 @@
 			files = (
 				59C049512A70E3C80071C806 /* SomeFeatureUseCase.swift in Sources */,
 				59C0495D2A70E42F0071C806 /* SomeFeatureViewController.swift in Sources */,
-				59C049672A70E4860071C806 /* BaseViewController.swift in Sources */,
+				59C049672A70E4860071C806 /* Button.swift in Sources */,
 				59C049732A70F2210071C806 /* AppDelegate.swift in Sources */,
 				59C049712A70F2130071C806 /* Utils.swift in Sources */,
 				59C0491E2A70E2BE0071C806 /* Main.swift in Sources */,
