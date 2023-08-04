@@ -29,6 +29,7 @@
 		59C049752A70F22C0071C806 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049742A70F22C0071C806 /* SceneDelegate.swift */; };
 		59C66A8E2A7CF32300E59227 /* SingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C66A8D2A7CF32300E59227 /* SingInView.swift */; };
 		59C66A902A7CF33400E59227 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C66A8F2A7CF33400E59227 /* SignUpView.swift */; };
+		59C66A952A7CFA4800E59227 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C66A942A7CFA4800E59227 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		59C049742A70F22C0071C806 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		59C66A8D2A7CF32300E59227 /* SingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInView.swift; sourceTree = "<group>"; };
 		59C66A8F2A7CF33400E59227 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		59C66A942A7CFA4800E59227 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		59C0491C2A70E2BE0071C806 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				59C66A922A7CFA1B00E59227 /* InfraStructure */,
 				59C0496E2A70F1FE0071C806 /* Utils */,
 				59C0496B2A70F1CE0071C806 /* Services */,
 				59C049582A70E4030071C806 /* Presentation */,
@@ -316,6 +319,22 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		59C66A922A7CFA1B00E59227 /* InfraStructure */ = {
+			isa = PBXGroup;
+			children = (
+				59C66A932A7CFA3200E59227 /* Config */,
+			);
+			path = InfraStructure;
+			sourceTree = "<group>";
+		};
+		59C66A932A7CFA3200E59227 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				59C66A942A7CFA4800E59227 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,6 +476,7 @@
 				59C049542A70E3DC0071C806 /* SomeEntityGateway.swift in Sources */,
 				59C049642A70E4720071C806 /* HomeView.swift in Sources */,
 				59C049572A70E3FB0071C806 /* SomeFeaturePresenter.swift in Sources */,
+				59C66A952A7CFA4800E59227 /* Config.swift in Sources */,
 				59C0494D2A70E3930071C806 /* SomeEntityRepository.swift in Sources */,
 				59C66A902A7CF33400E59227 /* SignUpView.swift in Sources */,
 				59C0494A2A70E3460071C806 /* SomeEntity.swift in Sources */,
