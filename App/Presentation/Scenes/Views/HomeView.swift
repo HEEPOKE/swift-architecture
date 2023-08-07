@@ -6,6 +6,8 @@ struct HomeScreen: View {
     var body: some View {
         NavigationStack {
             VStack {
+                NavigationLink(destination: SignInView(), tag: 1, selection: $selection) { EmptyView() }
+
                 Spacer()
                 Text("Welcome to My App")
                     .font(.title)
@@ -13,7 +15,6 @@ struct HomeScreen: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: SignInView(), tag: 1, selection: $selection) {
                     ButtonComponent(
                         title: "Sign In",
                         color: .blue,
@@ -25,7 +26,6 @@ struct HomeScreen: View {
                     ) {
                         self.selection = 1
                     }
-                }
                 
                 ButtonComponent(
                     title: "with Google",
@@ -35,7 +35,8 @@ struct HomeScreen: View {
                     height: 50,
                     radius: 10,
                     size: 18
-                ){}
+                ){
+                }
                 
                 Spacer()
             }
