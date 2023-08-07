@@ -1,10 +1,10 @@
 import SwiftUI
 
 struct HomeScreen: View {
-    @State private var isSignInViewActive = false
+    @State var selection: Int? = nil
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 Spacer()
                 Text("Welcome to My App")
@@ -13,7 +13,7 @@ struct HomeScreen: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: SignInView()){
+                NavigationLink(destination: SignInView(), tag: 1, selection: $selection) {
                     ButtonComponent(
                         title: "Sign In",
                         color: .blue,
@@ -22,8 +22,10 @@ struct HomeScreen: View {
                         height: 50,
                         radius: 10,
                         size: 18
-                    ){}
-                }.buttonStyle(PlainButtonStyle())
+                    ) {
+                        self.selection = 1
+                    }
+                }
                 
                 ButtonComponent(
                     title: "with Google",

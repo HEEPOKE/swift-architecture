@@ -24,16 +24,16 @@ struct SignInView: View {
                         .padding(.horizontal)
                     
                     
-                    ButtonComponent(
-                        title: "Sign In",
-                        color: .blue,
-                        icon: "person.fill",
-                        width: 200,
-                        height: 50,
-                        radius: 10,
-                        size: 18,
-                        action: performSignIn
-                    )
+//                    ButtonComponent(
+//                        title: "Sign In",
+//                        color: .blue,
+//                        icon: "person.fill",
+//                        width: 200,
+//                        height: 50,
+//                        radius: 10,
+//                        size: 18,
+//                        action: performSignIn
+//                    )
                     
                     Text("Don't have an account? Sign Up")
                         .foregroundColor(.blue)

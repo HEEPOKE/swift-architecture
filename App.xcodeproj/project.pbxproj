@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5960B4A82A80E019005DDE3C /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960B4A72A80E019005DDE3C /* EmptyView.swift */; };
 		59C0491E2A70E2BE0071C806 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C0491D2A70E2BE0071C806 /* Main.swift */; };
 		59C049222A70E2BF0071C806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C049212A70E2BF0071C806 /* Assets.xcassets */; };
 		59C049252A70E2BF0071C806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C049242A70E2BF0071C806 /* Preview Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5960B4A72A80E019005DDE3C /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		59C0491A2A70E2BE0071C806 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C0491D2A70E2BE0071C806 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		59C049212A70E2BF0071C806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 			children = (
 				59C66A8C2A7CF30500E59227 /* Auth */,
 				59C049632A70E4720071C806 /* HomeView.swift */,
+				5960B4A72A80E019005DDE3C /* EmptyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 				59C049672A70E4860071C806 /* Button.swift in Sources */,
 				59C049732A70F2210071C806 /* AppDelegate.swift in Sources */,
 				59C049712A70F2130071C806 /* Utils.swift in Sources */,
+				5960B4A82A80E019005DDE3C /* EmptyView.swift in Sources */,
 				59C0491E2A70E2BE0071C806 /* Main.swift in Sources */,
 				59C049752A70F22C0071C806 /* SceneDelegate.swift in Sources */,
 				59C0496A2A70F1B40071C806 /* BaseViewModel.swift in Sources */,
